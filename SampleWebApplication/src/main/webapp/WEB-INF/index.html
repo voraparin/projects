@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="LocalExpert">
+<head>
+<!-- <base href="/SampleWebApplication/" /> -->
+<link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+<title>Fix It</title>
+</head>
+
+<body>
+
+	<!-- <div class = "panel-group"> -->
+	<div class="container">
+
+		<div class="panel panel-default header-panel">
+			<div class="panel-body">
+				<!-- <div class="row"> -->
+					<div align = "center">
+						<img class="header-logo logo-background"
+							src="resources/images/vorainteriors_logo.png" width="150" height="150"/>
+					
+						<span class="h2 header-text"><strong>We Fix your
+								Home</strong></span>
+					</div>
+					<div>
+						<!-- <span class="h2 header-text"><strong>We Fix your
+								Home</strong></span> -->
+					</div>
+				<!-- </div> -->
+			</div>
+			<nav class="navbar navbar-inverse no-border" style="background-color: purple" >
+				<div class="container-fluid">
+					<!-- <div class="navbar-header">
+							<a class="navbar-brand" href="#">
+								<img class="logo" src="resources/images/vorainteriors_logo.png" width="200" height="120" style="width:200px; height:120px" alt=""/>
+							</a>
+						</div> -->
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#!/handyman">Handy Man</a></li>
+						<li><a href="#!/projects">Projects</a></li>
+						<li><a href="#!/contactus">Contact us</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div> 
+
+	</div>
+	
+
+	<hr class="" />
+	<div ng-view></div>
+
+</body>
+<script src="resources/JS/jquery-3.2.1.min.js"></script>
+<script src="resources/JS/bootstrap.min.js"></script>
+<script src="resources/JS/angular.min.js"></script>
+<script src="resources/JS/angular-route.js"></script>
+<script src="resources/JS/angular-resource.min.js"></script>
+<script src="angular/app.js"></script>
+<script src="angular/controller/ProjectsController.js"></script>
+<script src="angular/controller/HandyManController.js"></script>
+<script src="angular/controller/ContactUsController.js"></script>
+</html>
